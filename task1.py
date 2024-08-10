@@ -1,5 +1,5 @@
 import time  
-
+#this is atm app
 print("Please insert Your CARD")
 time.sleep(5)
 
@@ -36,7 +36,7 @@ if pin==password:
                 balance=balance-withraw_amount
                 transaction_history.append(f"withdraw {withraw_amount}.new balance {balance}")
                 print(f"{withraw_amount} is debited from your account")   
-                print(f"your update balance is {balance}")        
+                print(f"your update balance is {balance}")     
             
             else:
                 print("insufficient balance")
